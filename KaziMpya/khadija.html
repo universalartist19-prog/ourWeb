@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  <html>
+<head>
+<title>My Profile</title>
+
+<link rel="styleSheet" href="khadija.css">
+
+</head>
+<body>
+<!-- Navigation -->
+
+<h1>Student Portfolio</h1>
+
+<a href="home.html">Home</a> 
+<a href="contact.html">Contact</a>
+
+<button type="button" id="themeBtn">Dark-mode</button>
+<hr>
+<!-- Personal Information -->
+<h2>My Profile</h2>
+<h2>Name:</h2>
+<p>Khadija Mbarouk Rashid</p>
+<h2>Bibliography</h2>
+<p>
+I am a student ofse university of Dar es salaam,studying technology and programming.
+i like to study different skills in my life particulary in web programming and to do 
+well in a course which i am study by studying well and get more practices in web programming issues,
+that can help me to get good academic performance. 
+
+</p>
+
+<!-- Skills -->
+<h2>Skills</h2>
+
+<ul>
+<li id="prog">Programming
+	<ol id="tex" class="short">
+	<li>HTML</li>
+	<li>C</li>
+	<li>python</li>
+	</ol>
+</li>
+<li id="comm" >Communication</li>
+	<p id="text" class="commu">
+		i prefer mostly bussiness communication
+		 skills where i interact with more people to get
+		  to know new innovations and skills.
+</p>
+</ul>
+<!-- Education -->
+<h2>Education</h2>
+<table border="2" id="eduTable">
+<tr>
+<th>Level</th>
+<th>School/College</th>
+<th>Year</th>
+</tr>
+
+<tr>
+<td>University</td>
+<td>Coict</td>
+<td>2028</td>
+</tr>
+
+    <tr>
+        <td> Advance Secondary</td>
+        <td>Bagamoyo secondary School</td>
+        <td>2019</td>
+    </tr>
+
+</table>
+
+<select id="sortType" class="sortHidden">
+	<option value="asc" id="asc">Ascending</option>
+	<option value="desc" id="desc">Descending</option>
+</select>
+<button id="sortBtn">Sort</button>
+<!-- Hobbies -->
+  <div id="hobby1" class="more">
+
+<h2>Hobbies</h2>
+
+<ul id="hobby1" class="more">
+<li>Watching TV - I enjoy watching Tv series which consist of different kind of good stories</li>
+<li>Coding - I like solving problems using code especially C.</li>
+<li>cooking -I like to cook foods which consist ingridient like coconut, peanuts
+    and also i like preparing baking foods such as cakes and a lot bread.</li>
+    <li>cleaning-I like to clean my environment which surrounding me especially kitchen, toilets,bedrooms and maintaining good personal hygiene </li>
+</ul>
+<button id="Btn">show more</button>
+  </div>
+
+<!-- Images -->
+<h2>My Images</h2>
+
+<div id="lightbox" class="hidde">
+	<div id="imgContainer">
+
+	<span id="exitBtn">X</span>
+	<img id="lightboximg" class="box">
+
+	</div>
+</div>
+<img src="images/khadija.jpg" class="gallery" width ="200" height="350" alt="My Activity">
+
+<!-- Links -->
+<h2>Favorite Links</h2>
+<div class="social">
+<a href="https://www.youtube.com" target="_blank">
+<img src="images/youtube.avif" width="80" height="80">
+</a>
+
+
+
+<a href="http://www.facebook.com" target="_blank">
+	<img src="images/facebook.jpg" width="80" height="80">
+
+
+
+
+<a href="http://www.instagram.com" target="_blank">
+	<img src="images/instagram.jpg" width="80" height="80">
+</a>
+
+
+<a href="http://www.google.com" target="_blank">
+	<img src="images/google.webp" width="80" height="80">
+</a>
+</div>
+<hr>
+<button class="hidden" id="scroll">^</button>
+<!-- Comment -->
+<!-- This is my personal portfolio page -->
+  <script src="khadija.js" defer></script>
+</body>
+</html>

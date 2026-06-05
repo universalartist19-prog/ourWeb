@@ -1,0 +1,172 @@
+
+body{
+	font-family: sans-serif;
+	background-color: rgb(206, 240, 200);
+}
+
+a{
+	text-decoration: none;
+}
+
+.social{
+	display:flex;
+	margin: 10px;
+	gap: 10px
+}
+
+img{
+border-radius: 10px;
+}
+
+.gallery:hover{
+	transform: scale(1.1);
+}
+
+
+
+
+table{
+	
+    border-radius: 10px;
+    border-spacing: 0;
+	width: 70%;
+}
+
+#scroll{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    padding: 5px;
+      background-color: black;
+    color: white;
+    height: 45px;
+}
+
+.hidde{
+    display: none !important;
+}
+    #lightbox{
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #lightboximg{
+        max-width: 400px;
+        max-height: 600px;
+    }
+    #exitBtn{
+        position: absolute;
+        top: 30px;
+        right: 5px;
+background-color: black;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+    }
+    #imgContainer{
+        position: relative;
+    }
+    .box{
+ margin: auto;
+         justify-content: center;
+         display: flex;
+    }
+       .more{
+        height: 100px;
+        overflow: hidden;
+       }
+       #Btn{
+        position:absolute;
+                right: 0;
+                margin-right: 20px;
+     
+              margin-top: ;
+              border-radius: 5px;
+              margin-top: 0px;
+                background-color: rgb(183, 194, 138);
+             cursor: pointer ;       }
+    #smallSkill{
+        margin-top: 0;
+        
+    }
+	
+    .hidden{
+        display: none;
+    }
+	
+.dark-theme{
+    background-color: black;
+    color: white;
+   
+}
+.dark-theme h1{
+    background-color: black;
+    color: white;
+}
+.dark-theme h2{
+    background-color: black;
+    color: white;
+}
+
+.dark-theme table{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.dark-theme div{
+    background-color: black;
+    color: white;
+}
+.dark-theme a{
+    background-color: black;
+    color: white;
+}
+.dark-theme th{
+    background-color: black;
+    color: white;
+}
+
+.dark-theme table,
+.dark-theme th,
+.dark-theme td{
+    border: 2px solid lightgray;
+}
+
+
+.short{
+    display: none;
+}
+ .commu{
+    display: none;
+ }
+
+ #themeBtn{  
+    padding: 10px;
+border-radius: 10px;
+border: none;
+background-color: black;
+color: white;
+ top: 0;
+    right: 0;
+    position: fixed;
+
+}
+
+    .sortHidden{
+        display: none;
+    }
+    #sortBtn{
+        background-color: black;
+        color: white;
+        padding: 4px;
+        border-radius: 6px;
+        
+    }

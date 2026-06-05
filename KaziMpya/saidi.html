@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  <html>
+<head>
+<title>My Profile</title>
+<link rel="styleSheet" href="saidi.css">
+ 
+</head>
+<body>
+<!-- Navigation -->
+
+<h1>Student Portfolio</h1>
+
+<a href="home.html">Home</a> 
+<a href="contact.html">Contact</a>
+
+<button type="button" id="themeBtn">Dark-mode</button>
+<hr>
+<!-- Personal Information -->
+<h1>My Profile</h1>
+<h2>Name</h2>
+<p>Saidi Hamisi Gaga</p>
+<h2>Personal background</h2>
+<p>
+My name Said Hamis Gaga,a student of the university of Dar Es Salaam.
+ My course is Bachelor's degree Business Information Technology(BIT).
+ My studies is to focus on combining business knowledge with technology skills,
+ like programming and information system.
+</p>
+
+<!-- Skills -->
+<h2>Skills</h2>
+
+<ul>
+<li id="prog">Programming
+	<ol id="tex" class="short">
+
+	<li>HTML</li>
+	<li>C</li>
+	</ol>
+</li>
+</ul>
+
+<!-- Education -->
+<h2>Education</h2>
+<table border="2" id="eduTable">
+<tr>
+<th>Level</th>
+<th>School/College</th>
+<th>Year</th>
+</tr>
+
+<tr>
+<td>University</td>
+<td>Information and technology</td>
+<td>2028</td>
+</tr>
+
+    <tr>
+        <td>Secondary</td>
+        <td>Chatembo secondary School</td>
+        <td>2021</td>
+    </tr>
+</table>
+
+<select id="sortType" class="sortHidden">
+	<option value="asc" id="asc">Ascending</option>
+	<option value="desc" id="desc">Descending</option>
+</select>
+<button id="sortBtn">Sort</button>
+
+<!-- Hobbies -->
+  <div id="hobbies" class="showMore">
+<h2>Hobbies</h2>
+
+<ul>
+<li>Playing Football amd exercising- i like playing football and doing exercising to 
+    ensure that body be fit and to improve team work skills.
+</li>
+<li>Coding - I enjoy learning new programming skills and practicing by 
+    building simple projects and slowing problems.</li>
+<li>
+
+    <li>Reading- I like reading books so a to gain new knowledge and ideas</li>
+</ul>
+<button id="Btn">show more</button>
+
+</div>
+<!-- Images -->
+<h2>My Images</h2>
+
+<div id="lightbox" class="hidde">
+	<div id="imgContainer">
+
+	<span id="exitBtn">X</span>
+	<img id="lightboximg" class="box">
+
+	</div>
+</div>
+<img src="images/saidi(1).jpg" class="gallery"  width="200" alt="My Photo">
+<img src="images/saidi(2).jpg" class="gallery" width="200" alt="My Activity">
+
+<!-- Links -->
+<h2>Favorite Links</h2>
+<p>
+<a href="https://www.youtube.com" target="_blank">
+<img src="images/youtube.avif" width="80">
+</a>
+</p>
+
+<p>
+<a href="http://facebook.com" target="_blank">
+	<img src="images/facebook.jpg" width="80">
+</p>
+
+<p></p>
+</a>
+<a href="http://instagram.com" target="_blank">
+	<img src="images/instagram.jpg" width="80">
+</a>
+
+<p>
+<a href="http://google.com" target="_blank">
+	<img src="images/google.webp" width="80">
+</a>
+</p>
+<hr>
+<button class="hidden" id="scroll">^</button>
+<!-- Comment -->
+<!-- This is my personal portfolio page -->
+ <script src="saidi.js" defer></script>
+</body>
+</html>

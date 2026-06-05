@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+  <html>
+<head>
+<title>My Profile</title>
+<link rel="styleSheet" href="saiba.css">
+</head>
+<body>
+
+	<h1> Welcome to My Website!</h1>
+<!-- Navigation -->
+<div class="navigation">
+
+<a href="home.html">Home
+
+</a> 
+<a href="contact.html">Contact
+
+</a>
+</div>
+<button type="button" id="themeBtn">Dark-mode</button>
+<hr>
+<!-- Personal Information -->
+<h2>My Profile</h2>
+<h2 id="myP">Name</h2>
+<strong>Saiba Apronia Apolinary</strong>
+<h2>Personal background</h2>
+<p>
+I am a student of university of Dar es salaam particulary learning about technology and programming.
+I really enjoy learning new skills daily and building simple projects on my own, i'm not perfect but im working on it always so that i can be incredible later.
+</p>
+
+
+<!-- Skills -->
+<h2>Skills</h2>
+<small id="smallSkill">Click skill to explore more!</small>
+
+    <h3 id="prog">Teaching</h3>
+<p id="tex" class="short">
+    I prefer teaching others about programming, codding also
+    i prefer teaching science subjects such as physics, chemistry
+    and biology.
+</p>
+
+<!-- Education -->
+<h2>Education</h2>
+<table id="eduTable">
+    <tr>
+        <th>Level</th>
+        <th>School</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Primary</td>
+        <td>Buhigwe primary School</td>
+        <td>2015</td>
+    </tr>
+    <tr>
+        <td>Secondary</td>
+        <td>Buyenzi secondary School</td>
+        <td>2019</td>
+    </tr>
+<tr>
+<td>Advanced</td>
+<td>Misugwi secondary school</td>
+<td>2022</td>
+</tr>
+</table>
+
+<select id="sortType" class="sortHidden">
+	<option value="asc" id="asc">Ascending</option>
+	<option value="desc" id="desc">Descending</option>
+</select>
+<button id="sortBtn">Sort</button>
+
+<!-- Hobbies -->
+ <div id="hobbies" class="showMore">
+<h2>Hobbies</h2>
+
+<ul>
+<li>Listening music - I enjoy music entertainment and learning from stories</li>
+<li>Coding - I like solving problems using code especially C.</li>
+<button id="Btn">show more</button>
+</ul>
+
+</div>
+<!-- Images -->
+
+<h2>My Images</h2>
+<div id="lightbox" class="hidde">
+	<div id="imgContainer">
+
+	<span id="exitBtn">X</span>
+	<img id="lightboximg" class="box">
+
+	</div>
+</div>
+<img src="images/saiba.jpeg" class="gallery" width="200" alt="My Photo">
+
+
+<!-- Links -->
+<h2>Favorite Links</h2>
+<div class="social">
+
+<a href="https://www.youtube.com" target="_blank">
+<img src="images/youtube.avif" width="65" height="65">
+</a>
+
+
+
+<a href="http://facebook.com" target="_blank">
+	<img src="images/facebook.jpg" width="65" height="65">
+
+
+
+<a href="http://instagram.com" target="_blank">
+	<img src="images/instagram.jpg" width="65"height="65">
+</a>
+
+
+<a href="http://google.com" target="_blank">
+	<img src="images/google.webp" width="65"height="65">
+</a>
+
+</div>
+<button class="hidden" id="scroll">^</button>
+<hr>
+<script src="saiba.js" defer></script>
+<!-- Comment -->
+<!-- This is my personal portfolio page -->
+</body>
+</html>

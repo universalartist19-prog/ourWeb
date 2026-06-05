@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#112My profile</title>
+    <link rel="styleSheet" href="jazali.css">
+     
+</head>
+<h1>My profile</h1>
+<body>
+    <a href="home.html">Home</a>
+    <a href="contact.html">contact</a>
+
+<button type="button" id="themeBtn">Dark-mode</button>
+<!-- Personal Information -->
+<h1>Jazali Musa Katimbula </h1>
+<p>I am a student at the University of Dar es Salaam. I love programming.</p>
+
+<!-- Skills -->
+<h2>Skills</h2>
+
+<small id="smallSkill">Click skill to explore more!</small>
+
+    <h3 id="prog">programming</h3>
+        <ol id="tex" class="short">
+            <li>HTML</li>
+            <li>Python</li>
+        </ol>
+
+    <h3 id="comm">Teaching</h3>
+    <p class="commu" id="text">Besides teaching programming i also prefer teaching science subjects like,
+        physics, chemistry and biology.
+    </p>
+
+<!-- Education -->
+<h2>Education background</h2>
+<table border="2" id="eduTable">
+    <tr>
+        <th>Level</th>
+        <th>School</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <td>Primary</td>
+        <td>Chaume primary School</td>
+        <td>2015</td>
+    </tr>
+    <tr>
+        <td>Secondary</td>
+        <td>Chaume secondary School</td>
+        <td>2019</td>
+    </tr>
+<tr>
+<td>Advanced</td>
+<td>Bagamoyo secondary school</td>
+<td>2022</td>
+</tr>
+</table>
+
+<select id="sortType" class="sortHidden">
+	<option value="asc" id="asc">Ascending</option>
+	<option value="desc" id="desc">Descending</option>
+</select>
+<button id="sortBtn">Sort</button>
+
+<!-- Hobbies -->
+ <div id="hobby1" class="more">
+<h2>Hobbies</h2>
+<ul>
+    <li>Reading books- most of time i spent in a quet place with low cafe jazz music,
+        reading chapter to chapters for example books like <strong>Poor dad rich dad</strong>
+    </li>
+    <li>Dancing- As human beings we need to refresh, so i prefer dancing especially on weekends</li>
+</ul>
+<button id="Btn">show more</button>
+</div>
+<!-- Images -->
+<h1>My Photo</h1>
+
+<div id="lightbox" class="hidde">
+	<div id="imgContainer">
+
+	<span id="exitBtn">X</span>
+	<img id="lightboximg" class="box">
+
+	</div>
+</div>
+<img src="images/jazali.png" class="gallery" width="200"height="400">
+
+<!-- Favorite Links -->
+<h2 class="links">Favorite Links</h2>
+<a href="https://youtube.com">
+    <img src="images/YouTube.avif" width="50" height="50">
+</a>
+<a href="https://instagram.com">
+    <img src="images/instagram.jpg"width="50" height="50">
+</a>
+<a href="https://github.com">
+    <img src="images/GitHub.jpeg"width="50" height="50">
+</a>
+<button class="hidden" id="scroll">^</button>
+<script src="jazali.js" defer></script>
+
+</body>
+</html>

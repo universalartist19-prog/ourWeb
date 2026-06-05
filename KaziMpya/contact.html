@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <link rel="styleSheet" href="contact.css">
+</head>
+<body>
+    <div class="header">
+<h1 id="jini">Contact Us!</h1>
+<a href="home.html" class="home">home</a>
+    </div>
+
+<h2>Contact Information</h2>
+<p>Email: <a href="mailto:example@gmail.com">jasames@gmail.com</a></p>
+<p>Phone: 255718182</p>
+<p>Address: Dar es Salaam</p>
+
+<h2>Contact Form</h2>
+<form id="contactForm">
+    <div class="inputs">
+    Name: <input id="name" type="text" placeholder="enter your name"><br>
+    <small id="nameError"></small><br><br>
+
+    Email: <input id="email" type="email" placeholder="example@gmail.com"><br>
+<small id="emailError"></small><br><br>
+
+    Message:<br>
+    <textarea id="message" rows="5" cols="30" placeholder="you are welcome, tell us about our service today" ></textarea><br>
+        <small id="textError"></small>
+
+</div> 
+<p>
+    Select Gender:<br>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+    <input type="radio" name="gender" value="no value">I prefer not to say  <br>
+    <small id="genderError"></small>
+</p>
+
+ <div class="interests">
+    <p>Your Interests:<br>
+    <input type="checkbox"> Coding
+    <input type="checkbox"> Sports
+     <input type="checkbox"> Arts
+     <input type="checkbox"> None of mentioned<br>
+         <small id="interestError"></small>
+
+     </p>
+</div>
+
+     <div class="buttons">
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+    </div>
+</form>
+<script src="contact.js" defer></script>
+</body>
+</html>
